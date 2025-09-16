@@ -1,0 +1,70 @@
+* body {
+  font-family: "lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header .icon {
+  background-color: #11118B;
+  color: white;
+  height: 94px;
+  margin: 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  font-size: 45px;
+}
+header img {
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  margin-left: 60px;
+}
+main h1 {
+  font-weight: bold;
+  color: #11118B;
+  font-size: 80px;
+  margin-bottom: 0;
+}
+main h2 {
+  font-weight: bold;
+  color: #11118B;
+  font-size: 60px;
+}
+main .case {
+  background-color: #11118B;
+  color: white;
+  height: 45px;
+  margin: 0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  width: 220px;
+  margin-top: 26px;
+  font-weight: normal;
+}
+main .case:hover {
+  transform: scale 1.2;
+  transition: transform 0.4s;
+}
+
+.article {
+  margin-left: 70px;
+  width: 80%;
+}
+.article .article-1 {
+  background-color: #EEEEFC;
+  padding: 38px;
+  margin-top: 80px;
+}
+.article .article-2 {
+  background-color: #EEEEFC;
+  padding: 38px;
+  margin-top: 80px;
+}/*# sourceMappingURL=exercice.css.map */

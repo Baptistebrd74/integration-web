@@ -1,0 +1,30 @@
+$epaisseurTitre: bold;
+$couleurTitre: #11118B;
+$fondBleu: #11118B;
+$couleurTexte:white;
+@mixin titre($fontSize: 60px) {
+    font-weight: $epaisseurTitre;
+    color: $couleurTitre;
+}
+@mixin header($width: 100%, $margin: 0){
+    width: $width;
+    margin: $margin;
+}
+@mixin caseBleu($height: 94px, $marge:0) {
+    background-color: $fondBleu;
+    color: $couleurTexte;
+    height: $height;
+    margin: $marge;
+    font-weight: $epaisseurTitre;
+    display: flex;
+    align-items: center;
+}
+@mixin article($margeDeGauche: 70px, $largeur: 80%){
+    margin-left: $margeDeGauche;
+    width: $largeur;
+}
+@mixin fondArticles($fondDesArticles: #EEEEFC){
+    background-color: $fondDesArticles;
+    padding: 38px;
+    margin-top: 80px;
+}
